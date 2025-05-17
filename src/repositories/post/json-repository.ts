@@ -35,19 +35,4 @@ export class JsonRepository implements PostRepository {
   }
 }
 
-//Cria o tipo para ser exportado futuramente e coloca o tipo PostRepository para somente mostras as coisas da interface NÃO da implementação
 export const postRepository: PostRepository = new JsonRepository();
-
-/* (async () => {
-  const posts =
-    await postRepository.findAll();
-  posts.forEach(post =>
-    console.log(post.author),
-  );
-})(); */
-
-/* (async () => {
-  const findById =
-    await postRepository.findById('');
-  console.log(findById);
-})(); */
