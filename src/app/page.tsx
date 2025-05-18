@@ -4,7 +4,7 @@ import { Suspense } from 'react';
 
 export default async function HomePage() {
   return (
-    <div>
+    <div className='text-slate-900 bg-slate-100 min-h-screen'>
       <header className='my-10'>
         <p>Header</p>
       </header>

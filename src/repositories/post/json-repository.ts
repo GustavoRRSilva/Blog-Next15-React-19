@@ -11,7 +11,7 @@ const JSON_POSTS_FILE_PATH = resolve(
   'seed',
   'posts.json',
 );
-const SIMULATE_AWAIT_SECONDS = 3000;
+const SIMULATE_AWAIT_SECONDS = 0;
 console.log(JSON_POSTS_FILE_PATH);
 
 //Implemento o PostRepository, para implementar as opções com as tipagens passadas anteriormente
